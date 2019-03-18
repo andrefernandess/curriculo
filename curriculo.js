@@ -1,7 +1,6 @@
 var btn = document.getElementById('btn-trocar')
 
 btn.addEventListener('click', function(){
-    console.log("clicou")
     var link = document.querySelector('link')
     console.log(link)
     var last_url = link.getAttribute('href')
